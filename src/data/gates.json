@@ -1,0 +1,68 @@
+[
+  {
+    "name": "And",
+    "behavior": {
+      "inputs": 2,
+      "outputs": 1,
+      "equations": [
+        "$1 && $2"
+      ]
+    },
+    "svg": "./svgs/and.svg"
+  },
+  {
+    "name": "Nand",
+    "behavior": {
+      "inputs": 2,
+      "outputs": 1,
+      "equations": [
+        "!($1 && $2)"
+      ]
+    },
+    "svg":  "./svgs/nand.svg"
+  },
+  {
+    "name": "Or",
+    "behavior": {
+      "inputs": 2,
+      "outputs": 1,
+      "equations": [
+        "$1 || $2"
+      ]
+    },
+    "svg": "./svgs/or.svg"
+  },
+  {
+    "name": "Nor",
+    "behavior": {
+      "inputs": 2,
+      "outputs": 1,
+      "equations": [
+        "!($1 || $2)"
+      ]
+    },
+    "svg": "./svgs/nor.svg"
+  },
+  {
+    "name": "Not",
+    "behavior": {
+      "inputs": 1,
+      "outputs": 1,
+      "equations": [
+        "!$1"
+      ]
+    },
+    "svg": "./svgs/not.svg"
+  },
+  {
+    "name": "Xor",
+    "behavior": {
+      "inputs": 2,
+      "outputs": 1,
+      "equations": [
+        "(!$1 && $2) || ($1 && !$2)"
+      ]
+    },
+    "svg": "./svgs/xor.svg"
+  }
+]

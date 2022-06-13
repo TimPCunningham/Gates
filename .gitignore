@@ -1,0 +1,6 @@
+# Gatsby folders
+public/
+.cache/
+
+# NPM folders
+node_modules/
